@@ -1,0 +1,21 @@
+
+body {
+    background-image: url("public/images/about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header {
+    color: white;
+    font-size: 50px;
+    text-shadow: 4px 4px 5px black;
+}
+.center {
+    margin: auto;
+    margin-top: 200px;
+}
+.book-list {
+    margin-top: 50px;
+    visibility: hidden;
+}

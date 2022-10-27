@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar li, .navbar a, .navbar button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px 30px;
+    background-color: #fff;
+    top: 0;
+    position: fixed;
+    z-index: 1200;
+    width: 100%;
+}
+
+.nav-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 43px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.nav-content li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-content li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-content li a:hover{
+    color: #C7AB9D ;
+}
+
+.navbar button{
+    padding: 5px 15px;
+    border: 2px solid #C7AB9D;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+
+}
+
+.navbar button:hover{
+    background-color: #EBCFB2;
+}
+
+.about-content{
+    position: relative;
+    text-align: center;
+}
+
+.about-content img{
+    width: 100%;
+    height: 600px;
+    opacity: 0.7;
+}
+
+.about-title{
+    color: black;
+    background: none;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+.why-bookaddict{
+    margin: 50px;
+}
+.why-bookaddict p{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #C7AB9D;
+    padding: 50px 200px;
+}
+
+.footer-content {
+    background: #C7AB9D;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-logo h5{
+    background-color: #C7AB9D;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+.footer-info {
+    background: #C7AB9D;
+    display: flex;
+    gap: 150px;
+}
+
+.footer-title {
+    background: #C7AB9D;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+    margin-bottom: 19px;
+}
+
+.footer-list p{
+    background: #C7AB9D;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-list * {
+    background: #C7AB9D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.footer-list *:hover {
+    color: #EBCFB2;
+}
+.footer-services, .footer-contacts{
+    background-color: #C7AB9D;
+}
+
+.footer-list a{
+    text-decoration: none;
+}

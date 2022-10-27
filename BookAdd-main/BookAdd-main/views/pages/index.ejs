@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookAddict</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<%- include('../partials/header') %>
+
+    <img class="banner" src="images/lib2.jfif">
+
+    <div class="content">
+        <h1>Join millions of happy readers.</h1>
+
+        <div class="row">
+            <div class="column">
+                <div class="hometext">
+                    <p>If you are looking for something to read, you should to take our quiz to get personal recommendations.</p>
+                </div>
+                <button>Get Started</button>
+            </div>
+            <div class="column">
+                <div class="homepic">
+                    <img src="images/book1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <h1>The best of XXI century</h1>
+            <div class="card">
+                <div class="card-content">
+                    <img src="images/demian.jpg">
+                </div>
+                <div class="card-content">
+                    <img src="images/dorian.jpg">
+                </div>
+                <div class="card-content">
+                    <img src="images/comrades.jpg">
+                </div>
+                <div class="card-content">
+                    <img src="images/alaska.jpg">
+                </div>
+            </div>
+    </div>
+
+<%- include('../partials/footer') %>
+
+    </div>
+<script src="routes/routing.js"></script>
+</body>
+</html>

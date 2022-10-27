@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<%- include('../partials/header') %>
+<div class="mainbody">
+    <img src="images/lib1.jpg">
+</div>
+
+<div class="center">
+    <h1>Welcome to BookAddict</h1>
+    <p>Let’s create an account</p>
+    <form method="post">
+        <div class="textfield">
+            <input type="text" required>
+            <span></span>
+            <label>Full Name</label>
+        </div>
+        <div class="textfield">
+            <input type="text" required>
+            <span></span>
+            <label>Email</label>
+        </div>
+        <div class="textfield">
+            <input type="text" required>
+            <span></span>
+            <label>Create a password</label>
+        </div>
+        <input class="login-button" type="submit" value="Sign up">
+        <div class="register">
+            Already have an account? <a class="signup" href="login">Login</a>
+        </div>
+    </form>
+</div>
+
+<script src="routes/routing.js"></script>
+
+</body>
+</html>
